@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE76B661568BDD6008D9249 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE76B651568BDD6008D9249 /* UIKit.framework */; };
+		CEE76B681568BDD6008D9249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE76B671568BDD6008D9249 /* Foundation.framework */; };
+		CEE76B6A1568BDD6008D9249 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE76B691568BDD6008D9249 /* CoreGraphics.framework */; };
+		CEE76B701568BDD6008D9249 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE76B6E1568BDD6008D9249 /* InfoPlist.strings */; };
+		CEE76B721568BDD6008D9249 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE76B711568BDD6008D9249 /* main.m */; };
+		CEE76B761568BDD6008D9249 /* TXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE76B751568BDD6008D9249 /* TXAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEE76B611568BDD6008D9249 /* UICatalog5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICatalog5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE76B651568BDD6008D9249 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEE76B671568BDD6008D9249 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEE76B691568BDD6008D9249 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEE76B6D1568BDD6008D9249 /* UICatalog5-Info.plist */ = {isa = PBXFileReference; path = "UICatalog5-Info.plist"; sourceTree = "<group>"; };
+		CEE76B6F1568BDD6008D9249 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEE76B711568BDD6008D9249 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEE76B731568BDD6008D9249 /* UICatalog5-Prefix.pch */ = {isa = PBXFileReference; path = "UICatalog5-Prefix.pch"; sourceTree = "<group>"; };
+		CEE76B741568BDD6008D9249 /* TXAppDelegate.h */ = {isa = PBXFileReference; path = TXAppDelegate.h; sourceTree = "<group>"; };
+		CEE76B751568BDD6008D9249 /* TXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE76B5E1568BDD6008D9249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE76B661568BDD6008D9249 /* UIKit.framework in Frameworks */,
+				CEE76B681568BDD6008D9249 /* Foundation.framework in Frameworks */,
+				CEE76B6A1568BDD6008D9249 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE76B561568BDD6008D9249 = {
+			isa = PBXGroup;
+			children = (
+				CEE76B6B1568BDD6008D9249 /* UICatalog5 */,
+				CEE76B641568BDD6008D9249 /* Frameworks */,
+				CEE76B621568BDD6008D9249 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE76B621568BDD6008D9249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE76B611568BDD6008D9249 /* UICatalog5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE76B641568BDD6008D9249 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE76B651568BDD6008D9249 /* UIKit.framework */,
+				CEE76B671568BDD6008D9249 /* Foundation.framework */,
+				CEE76B691568BDD6008D9249 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE76B6B1568BDD6008D9249 /* UICatalog5 */ = {
+			isa = PBXGroup;
+			children = (
+				CEE76B741568BDD6008D9249 /* TXAppDelegate.h */,
+				CEE76B751568BDD6008D9249 /* TXAppDelegate.m */,
+				CEE76B6C1568BDD6008D9249 /* Supporting Files */,
+			);
+			path = UICatalog5;
+			sourceTree = "<group>";
+		};
+		CEE76B6C1568BDD6008D9249 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE76B6D1568BDD6008D9249 /* UICatalog5-Info.plist */,
+				CEE76B6E1568BDD6008D9249 /* InfoPlist.strings */,
+				CEE76B711568BDD6008D9249 /* main.m */,
+				CEE76B731568BDD6008D9249 /* UICatalog5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE76B601568BDD6008D9249 /* UICatalog5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE76B791568BDD6008D9249 /* Build configuration list for PBXNativeTarget "UICatalog5" */;
+			buildPhases = (
+				CEE76B5D1568BDD6008D9249 /* Sources */,
+				CEE76B5E1568BDD6008D9249 /* Frameworks */,
+				CEE76B5F1568BDD6008D9249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICatalog5;
+			productName = UICatalog5;
+			productReference = CEE76B611568BDD6008D9249 /* UICatalog5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE76B581568BDD6008D9249 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TX;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CEE76B5B1568BDD6008D9249 /* Build configuration list for PBXProject "UICatalog5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEE76B561568BDD6008D9249;
+			productRefGroup = CEE76B621568BDD6008D9249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE76B601568BDD6008D9249 /* UICatalog5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE76B5F1568BDD6008D9249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE76B701568BDD6008D9249 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE76B5D1568BDD6008D9249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE76B721568BDD6008D9249 /* main.m in Sources */,
+				CEE76B761568BDD6008D9249 /* TXAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEE76B6E1568BDD6008D9249 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE76B6F1568BDD6008D9249 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE76B771568BDD6008D9249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEE76B781568BDD6008D9249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE76B7A1568BDD6008D9249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UICatalog5/UICatalog5-Prefix.pch";
+				INFOPLIST_FILE = "UICatalog5/UICatalog5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEE76B7B1568BDD6008D9249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UICatalog5/UICatalog5-Prefix.pch";
+				INFOPLIST_FILE = "UICatalog5/UICatalog5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE76B5B1568BDD6008D9249 /* Build configuration list for PBXProject "UICatalog5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE76B771568BDD6008D9249 /* Debug */,
+				CEE76B781568BDD6008D9249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE76B791568BDD6008D9249 /* Build configuration list for PBXNativeTarget "UICatalog5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE76B7A1568BDD6008D9249 /* Debug */,
+				CEE76B7B1568BDD6008D9249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE76B581568BDD6008D9249 /* Project object */;
+}

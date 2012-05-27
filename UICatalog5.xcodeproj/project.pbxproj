@@ -13,6 +13,9 @@
 		CEE76B701568BDD6008D9249 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE76B6E1568BDD6008D9249 /* InfoPlist.strings */; };
 		CEE76B721568BDD6008D9249 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE76B711568BDD6008D9249 /* main.m */; };
 		CEE76B761568BDD6008D9249 /* TXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE76B751568BDD6008D9249 /* TXAppDelegate.m */; };
+		CEE76B7D1568BF6E008D9249 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE76B7C1568BF6E008D9249 /* Storyboard.storyboard */; };
+		CEE76B801568D12B008D9249 /* TXCatalogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE76B7F1568D12B008D9249 /* TXCatalogTableViewController.m */; };
+		CEE76B861568D5F3008D9249 /* TXButtonsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE76B851568D5F3008D9249 /* TXButtonsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,17 @@
 		CEE76B651568BDD6008D9249 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEE76B671568BDD6008D9249 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEE76B691568BDD6008D9249 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CEE76B6D1568BDD6008D9249 /* UICatalog5-Info.plist */ = {isa = PBXFileReference; path = "UICatalog5-Info.plist"; sourceTree = "<group>"; };
+		CEE76B6D1568BDD6008D9249 /* UICatalog5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UICatalog5-Info.plist"; sourceTree = "<group>"; };
 		CEE76B6F1568BDD6008D9249 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEE76B711568BDD6008D9249 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CEE76B731568BDD6008D9249 /* UICatalog5-Prefix.pch */ = {isa = PBXFileReference; path = "UICatalog5-Prefix.pch"; sourceTree = "<group>"; };
-		CEE76B741568BDD6008D9249 /* TXAppDelegate.h */ = {isa = PBXFileReference; path = TXAppDelegate.h; sourceTree = "<group>"; };
+		CEE76B731568BDD6008D9249 /* UICatalog5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICatalog5-Prefix.pch"; sourceTree = "<group>"; };
+		CEE76B741568BDD6008D9249 /* TXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXAppDelegate.h; sourceTree = "<group>"; };
 		CEE76B751568BDD6008D9249 /* TXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXAppDelegate.m; sourceTree = "<group>"; };
+		CEE76B7C1568BF6E008D9249 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		CEE76B7E1568D12B008D9249 /* TXCatalogTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TXCatalogTableViewController.h; path = Classes/TXCatalogTableViewController.h; sourceTree = "<group>"; };
+		CEE76B7F1568D12B008D9249 /* TXCatalogTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TXCatalogTableViewController.m; path = Classes/TXCatalogTableViewController.m; sourceTree = "<group>"; };
+		CEE76B841568D5F3008D9249 /* TXButtonsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TXButtonsTableViewController.h; path = Classes/TXButtonsTableViewController.h; sourceTree = "<group>"; };
+		CEE76B851568D5F3008D9249 /* TXButtonsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TXButtonsTableViewController.m; path = Classes/TXButtonsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				CEE76B6B1568BDD6008D9249 /* UICatalog5 */,
+				CEE76B6C1568BDD6008D9249 /* Supporting Files */,
 				CEE76B641568BDD6008D9249 /* Frameworks */,
 				CEE76B621568BDD6008D9249 /* Products */,
 			);
@@ -74,7 +83,10 @@
 			children = (
 				CEE76B741568BDD6008D9249 /* TXAppDelegate.h */,
 				CEE76B751568BDD6008D9249 /* TXAppDelegate.m */,
-				CEE76B6C1568BDD6008D9249 /* Supporting Files */,
+				CEE76B7E1568D12B008D9249 /* TXCatalogTableViewController.h */,
+				CEE76B7F1568D12B008D9249 /* TXCatalogTableViewController.m */,
+				CEE76B841568D5F3008D9249 /* TXButtonsTableViewController.h */,
+				CEE76B851568D5F3008D9249 /* TXButtonsTableViewController.m */,
 			);
 			path = UICatalog5;
 			sourceTree = "<group>";
@@ -86,8 +98,10 @@
 				CEE76B6E1568BDD6008D9249 /* InfoPlist.strings */,
 				CEE76B711568BDD6008D9249 /* main.m */,
 				CEE76B731568BDD6008D9249 /* UICatalog5-Prefix.pch */,
+				CEE76B7C1568BF6E008D9249 /* Storyboard.storyboard */,
 			);
 			name = "Supporting Files";
+			path = UICatalog5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE76B701568BDD6008D9249 /* InfoPlist.strings in Resources */,
+				CEE76B7D1568BF6E008D9249 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +169,8 @@
 			files = (
 				CEE76B721568BDD6008D9249 /* main.m in Sources */,
 				CEE76B761568BDD6008D9249 /* TXAppDelegate.m in Sources */,
+				CEE76B801568D12B008D9249 /* TXCatalogTableViewController.m in Sources */,
+				CEE76B861568D5F3008D9249 /* TXButtonsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

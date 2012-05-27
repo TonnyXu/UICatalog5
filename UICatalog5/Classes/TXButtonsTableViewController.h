@@ -10,4 +10,10 @@
 
 @interface TXButtonsTableViewController : UITableViewController
 
+
+@property (strong, nonatomic) IBOutlet UIButton *firstButton;
+@property (strong, nonatomic) IBOutlet UIButton *secondButton;
+
+
+
 @end

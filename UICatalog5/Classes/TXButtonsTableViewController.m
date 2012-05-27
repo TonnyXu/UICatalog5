@@ -13,6 +13,8 @@
 @end
 
 @implementation TXButtonsTableViewController
+@synthesize firstButton;
+@synthesize secondButton;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -26,16 +28,33 @@
 - (void)viewDidLoad
 {
   [super viewDidLoad];
+
+  NSLog(@"self.firstButton = %@", self.firstButton);
+  NSLog(@"self.secondButton = %@", self.secondButton);  
   
-  // Uncomment the following line to preserve selection between presentations.
-  // self.clearsSelectionOnViewWillAppear = NO;
+  UIImage *whiteButton = [UIImage imageNamed:@"whiteButton"];
+  UIImage *blueButton = [UIImage imageNamed:@"blueButton"];
   
-  // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-  // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+  UIImage *whiteButtonStretched = [whiteButton stretchableImageWithLeftCapWidth:12 
+                                                                   topCapHeight:0];
+  UIImage *blueButtonStretched = [blueButton stretchableImageWithLeftCapWidth:12 
+                                                                 topCapHeight:0];
+  [self.firstButton setBackgroundImage:whiteButtonStretched 
+                              forState:UIControlStateNormal];
+  [self.firstButton setBackgroundImage:blueButtonStretched 
+                              forState:UIControlStateHighlighted];
+  
+  [self.secondButton setBackgroundImage:whiteButtonStretched
+                               forState:UIControlStateNormal];
+  [self.secondButton setBackgroundImage:blueButtonStretched
+                               forState:UIControlStateHighlighted];
+  
 }
 
 - (void)viewDidUnload
 {
+    [self setFirstButton:nil];
+    [self setSecondButton:nil];
   [super viewDidUnload];
   // Release any retained subviews of the main view.
   // e.g. self.myOutlet = nil;
@@ -47,38 +66,6 @@
 }
 
 #pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-  // Return the number of sections.
-  return 7;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-  // Return the number of rows in the section.
-  return 2;
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-  static NSString *CellIdentifier = @"Cell";
-  UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-
-  if (cell == nil) {
-    cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
-  }
-  
-  // Configure the cell...
-  cell.textLabel.text = @"Tonny";
-  cell.detailTextLabel.text = @"iOS Dev Camp";
-  
-  return cell;
-}
-
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-  return @"2012/05/20";
-}
 
 
 #pragma mark - Table view delegate

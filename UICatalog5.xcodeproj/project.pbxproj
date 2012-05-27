@@ -49,6 +49,7 @@
 		CEE8F5811571FC1400F962D2 /* UIButton_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE8F5611571FC1400F962D2 /* UIButton_custom.png */; };
 		CEE8F5821571FC1400F962D2 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE8F5621571FC1400F962D2 /* whiteButton.png */; };
 		CEE8F5831571FC1400F962D2 /* yellowslide.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE8F5631571FC1400F962D2 /* yellowslide.png */; };
+		CEEC2796157239A5004070A4 /* TXImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC2795157239A5004070A4 /* TXImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +102,8 @@
 		CEE8F5611571FC1400F962D2 /* UIButton_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButton_custom.png; sourceTree = "<group>"; };
 		CEE8F5621571FC1400F962D2 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
 		CEE8F5631571FC1400F962D2 /* yellowslide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowslide.png; sourceTree = "<group>"; };
+		CEEC2794157239A5004070A4 /* TXImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TXImageViewController.h; path = Classes/TXImageViewController.h; sourceTree = "<group>"; };
+		CEEC2795157239A5004070A4 /* TXImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TXImageViewController.m; path = Classes/TXImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				CEE76B851568D5F3008D9249 /* TXButtonsTableViewController.m */,
 				CEB434FF1571F6C300D9A1CC /* TXButtonsDynamicViewController.h */,
 				CEB435001571F6C300D9A1CC /* TXButtonsDynamicViewController.m */,
+				CEEC2794157239A5004070A4 /* TXImageViewController.h */,
+				CEEC2795157239A5004070A4 /* TXImageViewController.m */,
 			);
 			path = UICatalog5;
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 				CEE76B801568D12B008D9249 /* TXCatalogTableViewController.m in Sources */,
 				CEE76B861568D5F3008D9249 /* TXButtonsTableViewController.m in Sources */,
 				CEB435011571F6C300D9A1CC /* TXButtonsDynamicViewController.m in Sources */,
+				CEEC2796157239A5004070A4 /* TXImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

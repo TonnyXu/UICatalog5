@@ -211,7 +211,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <connections>
-                                            <segue destination="kFV-fm-ZW9" kind="push" id="9mq-IZ-QMU"/>
+                                            <segue destination="n8O-DG-hYJ" kind="push" id="U5E-r9-hBN"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="ZSM-f2-N46" detailTextLabel="hCk-fg-gXv" style="IBUITableViewCellStyleSubtitle" id="JAg-Cu-KOa">
@@ -483,6 +483,30 @@
             </objects>
             <point key="canvasLocation" x="1372" y="166"/>
         </scene>
+        <!--Image View Controller - Images-->
+        <scene sceneID="vNP-cy-RFN">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XZx-0C-uby" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="n8O-DG-hYJ" customClass="TXImageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ebe-S6-L7y">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="sIx-Gn-2Vy">
+                                <rect key="frame" x="0.0" y="0.0" width="228" height="185"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Images" id="ppg-TA-RJk"/>
+                    <connections>
+                        <outlet property="imageView" destination="sIx-Gn-2Vy" id="Vhd-nZ-D4Q"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1495" y="723"/>
+        </scene>
         <!--Table View Controller - Transitions-->
         <scene sceneID="5Rk-gA-8RB">
             <objects>
@@ -632,36 +656,6 @@
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="1920" y="1249"/>
-        </scene>
-        <!--Table View Controller - Images-->
-        <scene sceneID="ekd-fw-TFp">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="o66-OG-AsN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController id="kFV-fm-ZW9" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="vVQ-PE-Zeh">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="LK8-aW-Ylu">
-                                <rect key="frame" x="0.0" y="46" width="320" height="46"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="10" y="1" width="300" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </view>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="kFV-fm-ZW9" id="ce9-hy-nKs"/>
-                            <outlet property="delegate" destination="kFV-fm-ZW9" id="NaV-Yu-Zhy"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Images" id="dpX-o9-Izs"/>
-                </tableViewController>
-            </objects>
-            <point key="canvasLocation" x="1472" y="710"/>
         </scene>
         <!--Table View Controller - TextField-->
         <scene sceneID="eRp-SC-2PI">
@@ -1155,6 +1149,12 @@
         </class>
         <class className="TXCatalogTableViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TXCatalogTableViewController.h"/>
+        </class>
+        <class className="TXImageViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TXImageViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

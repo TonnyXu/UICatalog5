@@ -15,5 +15,9 @@
 @property (strong, nonatomic) IBOutlet UIButton *secondButton;
 
 
+- (IBAction)doAction1:(id)sender;
+- (IBAction)doAction2:(id)sender;
 
+- (IBAction)dontLeaveMe:(id)sender;
+- (IBAction)dontLeaveMe2:(id)sender;
 @end

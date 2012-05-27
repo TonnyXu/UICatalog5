@@ -10,4 +10,6 @@
 
 @interface TXButtonsDynamicViewController : UITableViewController
 
+
+- (void)buttonAction:(id)sender;
 @end

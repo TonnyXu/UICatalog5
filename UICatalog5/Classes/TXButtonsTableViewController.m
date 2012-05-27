@@ -53,8 +53,8 @@
 
 - (void)viewDidUnload
 {
-    [self setFirstButton:nil];
-    [self setSecondButton:nil];
+  [self setFirstButton:nil];
+  [self setSecondButton:nil];
   [super viewDidUnload];
   // Release any retained subviews of the main view.
   // e.g. self.myOutlet = nil;
@@ -75,4 +75,28 @@
   [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
+- (IBAction)doAction1:(id)sender {
+  
+  UIButton *tappedButton = (UIButton *)sender;
+  
+  UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Tonny" 
+                                                      message:[NSString stringWithFormat:@"Hello, button %d", tappedButton.tag] 
+                                                     delegate:nil 
+                                            cancelButtonTitle:@"Cancel" 
+                                            otherButtonTitles:@"OK", nil];
+  [alertView show];
+}
+
+- (IBAction)doAction2:(id)sender {
+  UIButton *tappedButton = (UIButton *)sender;
+  NSLog(@"You clicked me[%d]", tappedButton.tag);
+}
+
+- (IBAction)dontLeaveMe:(id)sender {
+  NSLog(@"Don't leave me!!!!!!!!!");
+}
+
+- (IBAction)dontLeaveMe2:(id)sender {
+  NSLog(@"Hey........");
+}
 @end

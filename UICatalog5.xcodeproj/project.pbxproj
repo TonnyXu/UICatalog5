@@ -11,6 +11,7 @@
 		CE0A39151579F40100BEDC0C /* TXTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A39141579F40100BEDC0C /* TXTextFieldViewController.m */; };
 		CE0A39181579FC2300BEDC0C /* TXTextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A39171579FC2300BEDC0C /* TXTextViewViewController.m */; };
 		CE0A391F157A094800BEDC0C /* TXToolBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A391E157A094800BEDC0C /* TXToolBarViewController.m */; };
+		CE0A3922157B1FD100BEDC0C /* TXPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A3921157B1FD100BEDC0C /* TXPickerViewController.m */; };
 		CEB435011571F6C300D9A1CC /* TXButtonsDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB435001571F6C300D9A1CC /* TXButtonsDynamicViewController.m */; };
 		CEE76B661568BDD6008D9249 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE76B651568BDD6008D9249 /* UIKit.framework */; };
 		CEE76B681568BDD6008D9249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE76B671568BDD6008D9249 /* Foundation.framework */; };
@@ -64,6 +65,8 @@
 		CE0A39171579FC2300BEDC0C /* TXTextViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TXTextViewViewController.m; path = Classes/TXTextViewViewController.m; sourceTree = "<group>"; };
 		CE0A391D157A094800BEDC0C /* TXToolBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TXToolBarViewController.h; path = Classes/TXToolBarViewController.h; sourceTree = "<group>"; };
 		CE0A391E157A094800BEDC0C /* TXToolBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TXToolBarViewController.m; path = Classes/TXToolBarViewController.m; sourceTree = "<group>"; };
+		CE0A3920157B1FD100BEDC0C /* TXPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TXPickerViewController.h; path = Classes/TXPickerViewController.h; sourceTree = "<group>"; };
+		CE0A3921157B1FD100BEDC0C /* TXPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TXPickerViewController.m; path = Classes/TXPickerViewController.m; sourceTree = "<group>"; };
 		CEB434FF1571F6C300D9A1CC /* TXButtonsDynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TXButtonsDynamicViewController.h; path = Classes/TXButtonsDynamicViewController.h; sourceTree = "<group>"; };
 		CEB435001571F6C300D9A1CC /* TXButtonsDynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TXButtonsDynamicViewController.m; path = Classes/TXButtonsDynamicViewController.m; sourceTree = "<group>"; };
 		CEE76B611568BDD6008D9249 /* UICatalog5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICatalog5.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +179,8 @@
 				CE0A39171579FC2300BEDC0C /* TXTextViewViewController.m */,
 				CE0A391D157A094800BEDC0C /* TXToolBarViewController.h */,
 				CE0A391E157A094800BEDC0C /* TXToolBarViewController.m */,
+				CE0A3920157B1FD100BEDC0C /* TXPickerViewController.h */,
+				CE0A3921157B1FD100BEDC0C /* TXPickerViewController.m */,
 			);
 			path = UICatalog5;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 				CE0A39151579F40100BEDC0C /* TXTextFieldViewController.m in Sources */,
 				CE0A39181579FC2300BEDC0C /* TXTextViewViewController.m in Sources */,
 				CE0A391F157A094800BEDC0C /* TXToolBarViewController.m in Sources */,
+				CE0A3922157B1FD100BEDC0C /* TXPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

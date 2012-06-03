@@ -207,6 +207,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="BeJ-KY-0ZD" kind="push" id="NsC-FS-iuz"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="uj5-8b-lFA" detailTextLabel="gWa-W0-UNq" style="IBUITableViewCellStyleSubtitle" id="u1n-C0-Zoz">
                                         <rect key="frame" x="0.0" y="308" width="320" height="44"/>
@@ -807,6 +810,124 @@ Line2</string>
             </objects>
             <point key="canvasLocation" x="988" y="-271"/>
         </scene>
+        <!--Picker View Controller - Pickers-->
+        <scene sceneID="Lj5-gK-AXM">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tpS-iW-HqH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="BeJ-KY-0ZD" customClass="TXPickerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5FV-7Q-E1c">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="KPS-0b-otm">
+                                <rect key="frame" x="43" y="58" width="235" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                </segments>
+                                <connections>
+                                    <action selector="datePickerSegmentValueChanged:" destination="BeJ-KY-0ZD" eventType="valueChanged" id="Els-ke-QNH"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="UIDatePickerModeDate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="m9z-o3-W9z">
+                                <rect key="frame" x="57" y="29" width="207" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackOpaque" id="zPD-Bg-CdU">
+                                <rect key="frame" x="0.0" y="372" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="x5X-5w-F5a"/>
+                                    <barButtonItem style="plain" id="hET-X0-JJ6">
+                                        <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="1" id="vmb-ak-oZd">
+                                            <rect key="frame" x="25" y="8" width="269" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="UIPicker"/>
+                                                <segment title="UIDatePicker"/>
+                                                <segment title="Custom"/>
+                                            </segments>
+                                            <connections>
+                                                <action selector="pickerTypeValueChanged:" destination="BeJ-KY-0ZD" eventType="valueChanged" id="IKP-eZ-ha2"/>
+                                            </connections>
+                                        </segmentedControl>
+                                        <connections>
+                                            <action selector="pickerTypeValueChanged:" destination="BeJ-KY-0ZD" id="r6x-Kc-q3A"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="4kQ-zg-gQ2"/>
+                                </items>
+                            </toolbar>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" id="GjG-2o-Xdo">
+                                <rect key="frame" x="0.0" y="156" width="320" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="360390494.386711">
+                                    <!--2012-06-03 04:28:14 +0000-->
+                                </date>
+                                <locale key="locale" localeIdentifier="en_US"/>
+                                <timeZone key="timeZone" name="America/Los_Angeles">
+                                    <mutableData key="data">
+VFppZgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAC5AAAABAAAABCepkign7sVkKCGKqChmveQ
+y4kaoNIj9HDSYSYQ1v50INiArZDa/tGg28CQENzes6DdqayQ3r6VoN+JjpDgnneg4WlwkOJ+WaDjSVKQ
+5F47oOUpNJDmR1gg5xJREOgnOiDo8jMQ6gccIOrSFRDr5v4g7LH3EO3G4CDukdkQ76/8oPBxuxDxj96g
+8n/BkPNvwKD0X6OQ9U+ioPY/hZD3L4Sg+CiiEPkPZqD6CIQQ+viDIPvoZhD82GUg/chIEP64RyD/qCoQ
+AJgpIAGIDBACeAsgA3EokARhJ6AFUQqQBkEJoAcw7JAHjUOgCRDOkAmtvyAK8LCQC+CvoAzZzRANwJGg
+DrmvEA+priAQmZEQEYmQIBJ5cxATaXIgFFlVEBVJVCAWOTcQFyk2IBgiU5AZCRggGgI1kBryNKAb4heQ
+HNIWoB3B+ZAesfigH6HbkCB2KyAhgb2QIlYNICNq2hAkNe8gJUq8ECYV0SAnKp4QJ/7toCkKgBAp3s+g
+KupiECu+saAs036QLZ6ToC6zYJAvfnWgMJNCkDFnkiAycySQM0d0IDRTBpA1J1YgNjLokDcHOCA4HAUQ
+OOcaIDn75xA6xvwgO9vJEDywGKA9u6sQPo/6oD+bjRBAb9ygQYSpkEJPvqBDZIuQRC+goEVEbZBF89Mg
+Ry2KEEfTtSBJDWwQSbOXIErtThBLnLOgTNZqkE18laBOtkyQT1x3oFCWLpBRPFmgUnYQkFMcO6BUVfKQ
+VPwdoFY11JBW5TogWB7xEFjFHCBZ/tMQWqT+IFvetRBchOAgXb6XEF5kwiBfnnkQYE3eoGGHlZBiLcCg
+Y2d3kGQNoqBlR1mQZe2EoGcnO5BnzWagaQcdkGmtSKBq5v+Qa5ZlIGzQHBBtdkcgbq/+EG9WKSBwj+AQ
+cTYLIHJvwhBzFe0gdE+kEHT/CaB2OMCQdt7roHgYopB4vs2gefiEkHqer6B72GaQfH6RoH24SJB+XnOg
+f5gqkAABAAECAwEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
+</mutableData>
+                                </timeZone>
+                                <connections>
+                                    <action selector="datePickerValueChanged:" destination="BeJ-KY-0ZD" eventType="valueChanged" id="Zvw-XB-gff"/>
+                                </connections>
+                            </datePicker>
+                            <pickerView contentMode="scaleToFill" id="CZa-AZ-9Qy">
+                                <rect key="frame" x="0.0" y="127" width="320" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BeJ-KY-0ZD" id="ZTx-VH-t9j"/>
+                                    <outlet property="delegate" destination="BeJ-KY-0ZD" id="56J-rY-2Af"/>
+                                </connections>
+                            </pickerView>
+                            <pickerView tag="1" contentMode="scaleToFill" id="yrA-bz-E5B">
+                                <rect key="frame" x="0.0" y="100" width="320" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BeJ-KY-0ZD" id="reY-pE-wfO"/>
+                                    <outlet property="delegate" destination="BeJ-KY-0ZD" id="Z5l-B9-knI"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pickers" id="WK2-J3-suI"/>
+                    <connections>
+                        <outlet property="customPicker" destination="yrA-bz-E5B" id="fOO-1Z-8BQ"/>
+                        <outlet property="datePicker" destination="GjG-2o-Xdo" id="50c-9P-B6I"/>
+                        <outlet property="datePickerSegment" destination="KPS-0b-otm" id="rXr-G8-TXc"/>
+                        <outlet property="myLabel" destination="m9z-o3-W9z" id="fHV-qS-CDi"/>
+                        <outlet property="normalPicker" destination="CZa-AZ-9Qy" id="8B0-PG-LEV"/>
+                        <outlet property="pickerTypeSegment" destination="hET-X0-JJ6" id="YfM-4N-Efk"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="616" y="607"/>
+        </scene>
         <!--Tool Bar View Controller - Toolbars-->
         <scene sceneID="FSU-vv-zPM">
             <objects>
@@ -842,7 +963,7 @@ Line2</string>
                                     <barButtonItem title="Q_p" id="Ptf-HR-BKg"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="CMR-Eu-n38"/>
                                     <barButtonItem title="Tonny" id="NQd-UV-A9v"/>
-                                    <barButtonItem width="80" style="plain" systemItem="fixedSpace" id="6Se-fz-b9X"/>
+                                    <barButtonItem width="71" style="plain" systemItem="fixedSpace" id="6Se-fz-b9X"/>
                                     <barButtonItem title="Lang" id="cCK-lx-riL"/>
                                 </items>
                             </toolbar>
@@ -1563,6 +1684,20 @@ Line2</string>
                 <relationship kind="outlet" name="mySwitch" candidateClass="UISwitch"/>
             </relationships>
         </class>
+        <class className="TXPickerViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TXPickerViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="datePickerSegmentValueChanged:" candidateClass="UISegmentedControl"/>
+                <relationship kind="action" name="datePickerValueChanged:" candidateClass="UIDatePicker"/>
+                <relationship kind="action" name="pickerTypeValueChanged:" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="customPicker" candidateClass="UIPickerView"/>
+                <relationship kind="outlet" name="datePicker" candidateClass="UIDatePicker"/>
+                <relationship kind="outlet" name="datePickerSegment" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="myLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="normalPicker" candidateClass="UIPickerView"/>
+                <relationship kind="outlet" name="pickerTypeSegment" candidateClass="UIBarButtonItem"/>
+            </relationships>
+        </class>
         <class className="TXTextFieldViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TXTextFieldViewController.h"/>
             <relationships>
@@ -1581,7 +1716,7 @@ Line2</string>
         <class className="TXToolBarViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TXToolBarViewController.h"/>
             <relationships>
-                <relationship kind="action" name="segmentValueChanged:"/>
+                <relationship kind="action" name="segmentValueChanged:" candidateClass="UISegmentedControl"/>
                 <relationship kind="outlet" name="myToolbar" candidateClass="UIToolbar"/>
             </relationships>
         </class>

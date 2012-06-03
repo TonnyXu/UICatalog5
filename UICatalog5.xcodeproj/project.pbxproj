@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0A390E1579E1C700BEDC0C /* TXControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A390D1579E1C700BEDC0C /* TXControlsViewController.m */; };
+		CE0A39151579F40100BEDC0C /* TXTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A39141579F40100BEDC0C /* TXTextFieldViewController.m */; };
+		CE0A39181579FC2300BEDC0C /* TXTextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A39171579FC2300BEDC0C /* TXTextViewViewController.m */; };
+		CE0A391F157A094800BEDC0C /* TXToolBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A391E157A094800BEDC0C /* TXToolBarViewController.m */; };
 		CEB435011571F6C300D9A1CC /* TXButtonsDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB435001571F6C300D9A1CC /* TXButtonsDynamicViewController.m */; };
 		CEE76B661568BDD6008D9249 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE76B651568BDD6008D9249 /* UIKit.framework */; };
 		CEE76B681568BDD6008D9249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE76B671568BDD6008D9249 /* Foundation.framework */; };
@@ -49,10 +53,17 @@
 		CEE8F5811571FC1400F962D2 /* UIButton_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE8F5611571FC1400F962D2 /* UIButton_custom.png */; };
 		CEE8F5821571FC1400F962D2 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE8F5621571FC1400F962D2 /* whiteButton.png */; };
 		CEE8F5831571FC1400F962D2 /* yellowslide.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE8F5631571FC1400F962D2 /* yellowslide.png */; };
-		CEEC2796157239A5004070A4 /* TXImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC2795157239A5004070A4 /* TXImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0A390C1579E1C700BEDC0C /* TXControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TXControlsViewController.h; path = Classes/TXControlsViewController.h; sourceTree = "<group>"; };
+		CE0A390D1579E1C700BEDC0C /* TXControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TXControlsViewController.m; path = Classes/TXControlsViewController.m; sourceTree = "<group>"; };
+		CE0A39131579F40100BEDC0C /* TXTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TXTextFieldViewController.h; path = Classes/TXTextFieldViewController.h; sourceTree = "<group>"; };
+		CE0A39141579F40100BEDC0C /* TXTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TXTextFieldViewController.m; path = Classes/TXTextFieldViewController.m; sourceTree = "<group>"; };
+		CE0A39161579FC2300BEDC0C /* TXTextViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TXTextViewViewController.h; path = Classes/TXTextViewViewController.h; sourceTree = "<group>"; };
+		CE0A39171579FC2300BEDC0C /* TXTextViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TXTextViewViewController.m; path = Classes/TXTextViewViewController.m; sourceTree = "<group>"; };
+		CE0A391D157A094800BEDC0C /* TXToolBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TXToolBarViewController.h; path = Classes/TXToolBarViewController.h; sourceTree = "<group>"; };
+		CE0A391E157A094800BEDC0C /* TXToolBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TXToolBarViewController.m; path = Classes/TXToolBarViewController.m; sourceTree = "<group>"; };
 		CEB434FF1571F6C300D9A1CC /* TXButtonsDynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TXButtonsDynamicViewController.h; path = Classes/TXButtonsDynamicViewController.h; sourceTree = "<group>"; };
 		CEB435001571F6C300D9A1CC /* TXButtonsDynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TXButtonsDynamicViewController.m; path = Classes/TXButtonsDynamicViewController.m; sourceTree = "<group>"; };
 		CEE76B611568BDD6008D9249 /* UICatalog5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICatalog5.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,8 +113,6 @@
 		CEE8F5611571FC1400F962D2 /* UIButton_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButton_custom.png; sourceTree = "<group>"; };
 		CEE8F5621571FC1400F962D2 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
 		CEE8F5631571FC1400F962D2 /* yellowslide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowslide.png; sourceTree = "<group>"; };
-		CEEC2794157239A5004070A4 /* TXImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TXImageViewController.h; path = Classes/TXImageViewController.h; sourceTree = "<group>"; };
-		CEEC2795157239A5004070A4 /* TXImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TXImageViewController.m; path = Classes/TXImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +168,14 @@
 				CEE76B851568D5F3008D9249 /* TXButtonsTableViewController.m */,
 				CEB434FF1571F6C300D9A1CC /* TXButtonsDynamicViewController.h */,
 				CEB435001571F6C300D9A1CC /* TXButtonsDynamicViewController.m */,
-				CEEC2794157239A5004070A4 /* TXImageViewController.h */,
-				CEEC2795157239A5004070A4 /* TXImageViewController.m */,
+				CE0A390C1579E1C700BEDC0C /* TXControlsViewController.h */,
+				CE0A390D1579E1C700BEDC0C /* TXControlsViewController.m */,
+				CE0A39131579F40100BEDC0C /* TXTextFieldViewController.h */,
+				CE0A39141579F40100BEDC0C /* TXTextFieldViewController.m */,
+				CE0A39161579FC2300BEDC0C /* TXTextViewViewController.h */,
+				CE0A39171579FC2300BEDC0C /* TXTextViewViewController.m */,
+				CE0A391D157A094800BEDC0C /* TXToolBarViewController.h */,
+				CE0A391E157A094800BEDC0C /* TXToolBarViewController.m */,
 			);
 			path = UICatalog5;
 			sourceTree = "<group>";
@@ -318,7 +333,10 @@
 				CEE76B801568D12B008D9249 /* TXCatalogTableViewController.m in Sources */,
 				CEE76B861568D5F3008D9249 /* TXButtonsTableViewController.m in Sources */,
 				CEB435011571F6C300D9A1CC /* TXButtonsDynamicViewController.m in Sources */,
-				CEEC2796157239A5004070A4 /* TXImageViewController.m in Sources */,
+				CE0A390E1579E1C700BEDC0C /* TXControlsViewController.m in Sources */,
+				CE0A39151579F40100BEDC0C /* TXTextFieldViewController.m in Sources */,
+				CE0A39181579FC2300BEDC0C /* TXTextViewViewController.m in Sources */,
+				CE0A391F157A094800BEDC0C /* TXToolBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -376,6 +395,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
